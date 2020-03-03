@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link href="./main.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Formularz rejestracyjny</title>
+  </head>
+  <body>
+	<article>
+		<header>
+			<h1>Rejestracja</h1>
+		</header>
+	<form class="login_form" name="test" method="post" action="zad04reg.php">
+		<div class="form-group">
+        <label for="exampleInputFName1">Podaj imie:</label>
+        <input type="text" name="fname" class="form-control" id="exampleInputFName1" >
+
+		</div>
+		<div class="form-group">
+		<label for="exampleInputSName1">Podaj nazwisko:</label>
+        <input type="text" name="lname" class="form-control" id="exampleInputSName1" >
+		</div>
+		<div class="form-group">
+        	<label for="exampleInputEmail1">Podaj e-mail:</label>
+			<input type="text" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		</div>
+		<div class="form-group">
+        	<label for="exampleInputPassword1">Podaj hasło:</label>
+			<input type="password" name="pass" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		</div>
+		<a href="zad04.php" >cofnij</a> <input class="btn btn-primary" type="submit" >
+     </form>
+	 <div id="result"></div>
+</article>
+<footer>
+     <p>Website by Sebastian Sitko</p>
+</footer>
+
+  </body>
+</html>';
