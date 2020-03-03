@@ -1,4 +1,4 @@
-Projekt 2 : Baza danych do przechowywania wyników pomiaru tętna oraz analiza wyników
+Projekt : Baza danych do przechowywania wyników pomiaru tętna oraz analiza wyników
 Wykonanie: Sebastian Sitko
 
 Wykorzystano 2 bazy danych
@@ -14,6 +14,3 @@ dane automatycznie są synchronizowane z tym konte po kliknięciu 'Synchronizuj 
 Możliwe jest także usunięcie danych z bazy - tylko zalogowanego użytkownika - oraz ich wyświetlenie.
 
 Obsługa sesji oraz bazy MongoDB zaimplementowana jest w języku PHP - styl RESTful, natomiast IndexedDB w JS. Do stworzenia wykresów użyto CanvasJS.
-
-
-Login z przykładowymi danymi mail:s haslo:s
